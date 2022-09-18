@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h4>Write a code to add word hello in beginning of each element of array. Eg. Array -> john, smith, josh, drake. Output -> hello john, hello smith, hello drake</h4>
+
+<p id="print"></p>
+
+<script>
+const cars = ["John", "Smith", "Josh", "Drake"];
+
+let text = "";
+for (let i = 0; i < cars.length; i++) {
+  text += "Hello" +" "+ cars[i] + "<br>";
+}
+
+document.getElementById("print").innerHTML = text;
+</script>
+
+</body>
+</html>
